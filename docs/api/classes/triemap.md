@@ -67,7 +67,7 @@ Name |
 
 **Returns:** [*TrieMap*](triemap.md)<T\>
 
-Defined in: [index.ts:49](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L49)
+Defined in: [index.ts:49](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L49)
 
 ## Properties
 
@@ -77,7 +77,7 @@ Defined in: [index.ts:49](https://github.com/bemoje/trie-map/blob/7f42561/src/in
 
 The TrieMap data structure root.
 
-Defined in: [index.ts:49](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L49)
+Defined in: [index.ts:49](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L49)
 
 ## Accessors
 
@@ -99,7 +99,7 @@ trie.
 
 **Returns:** *number*
 
-Defined in: [index.ts:76](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L76)
+Defined in: [index.ts:76](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L76)
 
 ## Methods
 
@@ -132,7 +132,7 @@ Name | Type | Description |
 
 **Returns:** *Iterable*<[*string*[], T]\>
 
-Defined in: [index.ts:599](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L599)
+Defined in: [index.ts:599](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L599)
 
 ___
 
@@ -155,7 +155,7 @@ trie.count;
 
 this/self (chainable)
 
-Defined in: [index.ts:112](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L112)
+Defined in: [index.ts:112](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L112)
 
 ___
 
@@ -188,7 +188,7 @@ Name | Type | Description |
 
 **Returns:** *boolean*
 
-Defined in: [index.ts:353](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L353)
+Defined in: [index.ts:353](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L353)
 
 ___
 
@@ -219,7 +219,7 @@ Name | Type | Description |
 
 **Returns:** *void*
 
-Defined in: [index.ts:408](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L408)
+Defined in: [index.ts:408](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L408)
 
 ___
 
@@ -252,7 +252,7 @@ Name | Type | Description |
 
 **Returns:** *Iterable*<[*string*[], T]\>
 
-Defined in: [index.ts:571](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L571)
+Defined in: [index.ts:571](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L571)
 
 ___
 
@@ -291,7 +291,7 @@ Name | Type | Description |
 
 **Returns:** [*TrieMap*](triemap.md)<T\>
 
-Defined in: [index.ts:486](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L486)
+Defined in: [index.ts:486](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L486)
 
 ___
 
@@ -330,7 +330,7 @@ Name | Type | Description |
 
 **Returns:** [*TrieMap*](triemap.md)<T\>
 
-Defined in: [index.ts:440](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L440)
+Defined in: [index.ts:440](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L440)
 
 ___
 
@@ -357,7 +357,7 @@ Name | Type | Description |
 
 **Returns:** *undefined* \| T
 
-Defined in: [index.ts:280](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L280)
+Defined in: [index.ts:280](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L280)
 
 ___
 
@@ -388,7 +388,7 @@ Name | Type | Description |
 
 **Returns:** T
 
-Defined in: [index.ts:303](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L303)
+Defined in: [index.ts:303](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L303)
 
 ___
 
@@ -419,7 +419,7 @@ Name | Type | Description |
 
 **Returns:** *boolean*
 
-Defined in: [index.ts:327](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L327)
+Defined in: [index.ts:327](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L327)
 
 ___
 
@@ -452,7 +452,7 @@ Name | Type | Description |
 
 **Returns:** *Iterable*<string[]\>
 
-Defined in: [index.ts:519](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L519)
+Defined in: [index.ts:519](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L519)
 
 ___
 
@@ -480,7 +480,7 @@ Name | Type | Description |
 
 this/self (chainable)
 
-Defined in: [index.ts:131](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L131)
+Defined in: [index.ts:131](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L131)
 
 ___
 
@@ -508,7 +508,7 @@ Name | Type | Description |
 
 this/self (chainable)
 
-Defined in: [index.ts:230](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L230)
+Defined in: [index.ts:230](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L230)
 
 ___
 
@@ -541,7 +541,7 @@ Name | Type | Description |
 
 **Returns:** [*string*[], T][]
 
-Defined in: [index.ts:623](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L623)
+Defined in: [index.ts:623](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L623)
 
 ___
 
@@ -581,7 +581,7 @@ Name | Type | Default value | Description |
 
 **Returns:** *string*
 
-Defined in: [index.ts:654](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L654)
+Defined in: [index.ts:654](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L654)
 
 ___
 
@@ -618,7 +618,7 @@ Name | Type | Description |
 
 this/self (chainable)
 
-Defined in: [index.ts:258](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L258)
+Defined in: [index.ts:258](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L258)
 
 ___
 
@@ -647,7 +647,7 @@ Name | Type | Description |
 
 **Returns:** *Iterable*<T\>
 
-Defined in: [index.ts:543](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L543)
+Defined in: [index.ts:543](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L543)
 
 ___
 
@@ -679,7 +679,7 @@ Name | Type | Description |
 
 **Returns:** [*TrieMap*](triemap.md)<T\>
 
-Defined in: [index.ts:40](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L40)
+Defined in: [index.ts:40](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L40)
 
 ___
 
@@ -712,4 +712,4 @@ Name | Type | Description |
 
 **Returns:** [*TrieMap*](triemap.md)<T\>
 
-Defined in: [index.ts:23](https://github.com/bemoje/trie-map/blob/7f42561/src/index.ts#L23)
+Defined in: [index.ts:23](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L23)
