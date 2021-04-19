@@ -1,7 +1,7 @@
 {
   "name": "@bemoje/trie-map",
   "version": "1.0.0",
-  "description": "A fast trie map data structure.",
+  "description": "A class for a fast trie map data structure.",
   "cdn": "dist/index.umd.min.js",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
