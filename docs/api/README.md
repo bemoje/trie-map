@@ -15,7 +15,6 @@ A fast trie map data structure.
 ##### NPM
 <span><a href="https://npmjs.org/@bemoje/trie-map" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@bemoje/trie-map" alt="NPM Version" /></a></span>
 <span><a href="https://npmjs.org/@bemoje/trie-map" title="NPM Downloads"><img src="https://img.shields.io/npm/dt/@bemoje/trie-map" alt="NPM Downloads" /></a></span>
-<span><a href="https://npmjs.org/@bemoje/trie-map" title="View this project on NPM"><img src="https://david-dm.org/bemoje/trie-map.svg" alt="dependencies" /></a></span>
 
 ##### Travis CI
 <span><a href="https://npmjs.org/@bemoje/trie-map" title="View this project on NPM"><img src="https://travis-ci.org/bemoje/trie-map.svg?branch=master" alt="dependencies" /></a></span>

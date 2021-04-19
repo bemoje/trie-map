@@ -9,7 +9,7 @@ const extractComments = require('extract-comments');
 const keywordExtractor = require('keyword-extractor');
 
 const CWD = process.cwd();
-const CONFIG = require(path.join(CWD, 'scripts', 'RepoManager.config.json'));
+const CONFIG = require(path.join(CWD, '.repo-manager.config.json'));
 
 // all keywords to ignore to lower case.
 CONFIG.keywords.ignore = CONFIG.keywords.ignore.map((keyword) =>
@@ -133,7 +133,6 @@ ${CONFIG.package.description}
   CONFIG.github.user
 }/${CONFIG.github.repository})
 
-
 ##### NPM
 <span><a href="https://npmjs.org/${
   CONFIG.package.fullName
@@ -145,11 +144,6 @@ ${CONFIG.package.description}
 }" title="NPM Downloads"><img src="https://img.shields.io/npm/dt/${
   CONFIG.package.fullName
 }" alt="NPM Downloads" /></a></span>
-<span><a href="https://npmjs.org/${
-  CONFIG.package.fullName
-}" title="View this project on NPM"><img src="https://david-dm.org/${
-  CONFIG.github.user
-}/${CONFIG.github.repository}.svg" alt="dependencies" /></a></span>
 
 ##### Travis CI
 <span><a href="https://npmjs.org/${

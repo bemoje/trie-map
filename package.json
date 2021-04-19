@@ -1,7 +1,7 @@
 {
   "name": "@bemoje/trie-map",
   "version": "1.0.0",
-  "description": "A class for a fast trie map data structure.",
+  "description": "A fast trie map data structure.",
   "cdn": "dist/index.umd.min.js",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
@@ -38,12 +38,12 @@
     "test:unit": "jest",
     "lint": "eslint \"*/**/*.{ts,js,json}\" --fix",
     "build": "rimraf dist && rimraf types && rollup --config ./rollup.config.js",
-    "generators": "node scripts/RepoManager.js --generators",
-    "versionPatch": "node scripts/RepoManager.js --versionPatch",
-    "versionMinor": "node scripts/RepoManager.js --versionMinor",
-    "versionMajor": "node scripts/RepoManager.js --versionMajor",
+    "generators": "node repo-manager.js --generators",
+    "versionPatch": "node repo-manager.js --versionPatch",
+    "versionMinor": "node repo-manager.js --versionMinor",
+    "versionMajor": "node repo-manager.js --versionMajor",
     "prePublish": "npm run build && npm run test && npm run generators && npm run docs",
-    "npmPublish": "node scripts/RepoManager.js --npmPublish"
+    "npmPublish": "node repo-manager.js --npmPublish"
   },
   "repository": {
     "type": "git",

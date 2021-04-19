@@ -4,7 +4,7 @@ import { terser } from 'rollup-plugin-terser';
 import typescript2 from 'rollup-plugin-typescript2';
 
 import PKG from './package.json';
-import CONFIG from './scripts/RepoManager.config.json';
+import CONFIG from './.repo-manager.config.json';
 
 const banner = `/*!
  * ${PKG.name} v${PKG.version}
