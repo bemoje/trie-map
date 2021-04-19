@@ -328,9 +328,6 @@ class RepoManager {
         url: `https://github.com/${CONFIG.github.user}/${CONFIG.github.repository}/issues`,
       };
 
-      // GITHUB DELETE SCRIPT
-      PKG.scripts.gitDelete = `rimraf .git && bash scripts/github-delete.sh ${CONFIG.github.user} ${CONFIG.github.repository}`
-
       // KEYWORDS
       if (!CONFIG.keywords.generate) {
         PKG.keywords = [
@@ -399,67 +396,6 @@ class RepoManager {
   static async npmPublish() {
     try {
       const cmd = 'npm publish --access public';
-      console.log('Executing command: ' + cmd);
-      const data = await exec(cmd);
-      data.print();
-    } catch (e) {
-      console.error(e);
-    }
-  }
-
-  /**
-   * Create a new Github repository for this local repository.
-   */
-  static async gitCreate() {
-    try {
-      const rl = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout,
-      });
-
-      rl.question('Enter your github password: ', async (pw) => {
-        const user = CONFIG.github.user;
-        const repoName = CONFIG.github.repository;
-        const description = CONFIG.package.description;
-        const filepath = path.join(CWD, 'scripts', 'github-create.sh');
-        const script = `bash ${filepath}`;
-        const cmd = `${script} ${user} ${pw} ${repoName} "${description}"`;
-        console.log('Executing command: ' + cmd);
-        const data = await exec(cmd);
-        data.print();
-        await this.gitCommit();
-        rl.close();
-      });
-    } catch (e) {
-      console.error(e);
-    }
-  }
-
-  /**
-   * Github commit to main.
-   */
-  static async gitCommit() {
-    try {
-      const filepath = path.join(CWD, 'scripts', 'github-commit.sh');
-      const cmd = `bash ${filepath}`;
-      console.log('Executing command: ' + cmd);
-      const data = await exec(script);
-      data.print();
-    } catch (e) {
-      console.error(e);
-    }
-  }
-
-  /**
-   * Github commit to main.
-   */
-  static async gitDelete() {
-    try {
-      const filepath = path.join(CWD, 'scripts', 'github-delete.sh');
-      const script = `bash ${filepath}`;
-      const user = CONFIG.github.user;
-      const repo = CONFIG.github.repository;
-      const cmd = `${script} ${user} ${repo}`;
       console.log('Executing command: ' + cmd);
       const data = await exec(cmd);
       data.print();

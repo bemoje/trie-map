@@ -43,8 +43,7 @@
     "versionMinor": "node scripts/RepoManager.js --versionMinor",
     "versionMajor": "node scripts/RepoManager.js --versionMajor",
     "prePublish": "npm run build && npm run test && npm run generators && npm run docs",
-    "npmPublish": "node scripts/RepoManager.js --npmPublish",
-    "commit": "bash scripts/github-commit.sh"
+    "npmPublish": "node scripts/RepoManager.js --npmPublish"
   },
   "repository": {
     "type": "git",
