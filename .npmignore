@@ -1,0 +1,17 @@
+docs
+node_modules
+scripts
+src
+.editorconfig
+.eslintignore
+.eslintrc.js
+.gitattributes
+.gitignore
+.npmignore
+.prettierignore
+.travis.yml
+jest.config.js
+prettier.config.js
+rollup.config.js
+tsconfig.bundle.json
+tsconfig.json

@@ -1,0 +1,58 @@
+{
+  "author": {
+    "name": "Benjamin Møller Jensen",
+    "email": "bemoje@bemoje.net"
+  },
+  "package": {
+    "scope": "bemoje",
+    "name": "trie-map",
+    "description": "A fast trie map data structure.",
+    "license": "MIT"
+  },
+  "github": {
+    "user": "bemoje",
+    "repository": "trie-map"
+  },
+  "patreon": {
+    "enabled": true,
+    "user": "40752770"
+  },
+  "keywords": {
+    "generate": true,
+    "include": [
+      "typescript",
+      "library",
+      "triemap",
+      "trie",
+      "map",
+      "data",
+      "data structure"
+    ],
+    "ignore": [
+      "works"
+    ]
+  },
+  "readme": {
+    "repoDisplayName": "TrieMap"
+  },
+  "bundler": {
+    "exports": {
+      "default": "TrieMap",
+      "named": [
+        "TrieMap"
+      ]
+    },
+    "output": {
+      "commonjs": true,
+      "esm": true,
+      "umd": true,
+      "umdMinified": {
+        "enabled": true,
+        "options": {
+          "keep_classnames": true,
+          "keep_fnames": true
+        }
+      }
+    }
+  }
+}
