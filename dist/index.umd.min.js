@@ -1,5 +1,5 @@
 /*!
- * @bemoje/trie-map v1.0.1
+ * @bemoje/trie-map v1.0.7
  * (c) Benjamin Møller Jensen
  * Homepage: https://github.com/bemoje/trie-map
  * Released under the MIT License.

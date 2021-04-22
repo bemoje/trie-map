@@ -28,4 +28,4 @@ Renames and exports: [TrieMap](classes/triemap.md)
 
 Ƭ **obj**: *Record*<string, any\>
 
-Defined in: [index.ts:3](https://github.com/bemoje/trie-map/blob/385e8d6/src/index.ts#L3)
+Defined in: [index.ts:3](https://github.com/bemoje/trie-map/blob/5ad3997/src/index.ts#L3)

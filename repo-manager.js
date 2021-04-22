@@ -144,15 +144,14 @@ ${CONFIG.package.description}
 }" title="NPM Downloads"><img src="https://img.shields.io/npm/dt/${
   CONFIG.package.fullName
 }" alt="NPM Downloads" /></a></span>
-
 ##### Travis CI
 <span><a href="https://npmjs.org/${
   CONFIG.package.fullName
-}" title="View this project on NPM"><img src="https://travis-ci.org/${
+}" title="View this project on NPM"><img src="https://www.travis-ci.com/${
   CONFIG.github.user
 }/${
   CONFIG.github.repository
-}.svg?branch=master" alt="dependencies" /></a></span>
+}.svg?branch=main" alt="dependencies" /></a></span>
 
 ##### Donate
 <span><a href="${`https://www.patreon.com/user?u=${CONFIG.patreon.user}`}" title="Donate using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon Donation" /></a></span>
